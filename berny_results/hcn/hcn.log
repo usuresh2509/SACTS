@@ -1,0 +1,372 @@
+ Entering Gaussian System, Link 0=g16
+ Initial command:
+ /sw/isaac/applications/gaussian/16C01/rhel8_cascadelake_binary_x86_64_avx2/g16/l1.exe "/lustre/isaac24/scratch/usuresh3/paper/berny_results/hcn/Gau-1283073.inp" -scrdir="/lustre/isaac24/scratch/usuresh3/paper/berny_results/hcn/"
+ Entering Link 1 = /sw/isaac/applications/gaussian/16C01/rhel8_cascadelake_binary_x86_64_avx2/g16/l1.exe PID=   1283074.
+  
+ Copyright (c) 1988-2019, Gaussian, Inc.  All Rights Reserved.
+  
+ This is part of the Gaussian(R) 16 program.  It is based on
+ the Gaussian(R) 09 system (copyright 2009, Gaussian, Inc.),
+ the Gaussian(R) 03 system (copyright 2003, Gaussian, Inc.),
+ the Gaussian(R) 98 system (copyright 1998, Gaussian, Inc.),
+ the Gaussian(R) 94 system (copyright 1995, Gaussian, Inc.),
+ the Gaussian 92(TM) system (copyright 1992, Gaussian, Inc.),
+ the Gaussian 90(TM) system (copyright 1990, Gaussian, Inc.),
+ the Gaussian 88(TM) system (copyright 1988, Gaussian, Inc.),
+ the Gaussian 86(TM) system (copyright 1986, Carnegie Mellon
+ University), and the Gaussian 82(TM) system (copyright 1983,
+ Carnegie Mellon University). Gaussian is a federally registered
+ trademark of Gaussian, Inc.
+  
+ This software contains proprietary and confidential information,
+ including trade secrets, belonging to Gaussian, Inc.
+  
+ This software is provided under written license and may be
+ used, copied, transmitted, or stored only in accord with that
+ written license.
+  
+ The following legend is applicable only to US Government
+ contracts under FAR:
+  
+                    RESTRICTED RIGHTS LEGEND
+  
+ Use, reproduction and disclosure by the US Government is
+ subject to restrictions as set forth in subparagraphs (a)
+ and (c) of the Commercial Computer Software - Restricted
+ Rights clause in FAR 52.227-19.
+  
+ Gaussian, Inc.
+ 340 Quinnipiac St., Bldg. 40, Wallingford CT 06492
+  
+  
+ ---------------------------------------------------------------
+ Warning -- This program may not be used in any manner that
+ competes with the business of Gaussian, Inc. or will provide
+ assistance to any competitor of Gaussian, Inc.  The licensee
+ of this program is prohibited from giving any competitor of
+ Gaussian, Inc. access to this program.  By using this program,
+ the user acknowledges that Gaussian, Inc. is engaged in the
+ business of creating and licensing software in the field of
+ computational chemistry and represents and warrants to the
+ licensee that it is not a competitor of Gaussian, Inc. and that
+ it will not use this program in any manner prohibited above.
+ ---------------------------------------------------------------
+  
+
+ Cite this work as:
+ Gaussian 16, Revision C.01,
+ M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, 
+ M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, 
+ G. A. Petersson, H. Nakatsuji, X. Li, M. Caricato, A. V. Marenich, 
+ J. Bloino, B. G. Janesko, R. Gomperts, B. Mennucci, H. P. Hratchian, 
+ J. V. Ortiz, A. F. Izmaylov, J. L. Sonnenberg, D. Williams-Young, 
+ F. Ding, F. Lipparini, F. Egidi, J. Goings, B. Peng, A. Petrone, 
+ T. Henderson, D. Ranasinghe, V. G. Zakrzewski, J. Gao, N. Rega, 
+ G. Zheng, W. Liang, M. Hada, M. Ehara, K. Toyota, R. Fukuda, 
+ J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, 
+ T. Vreven, K. Throssell, J. A. Montgomery, Jr., J. E. Peralta, 
+ F. Ogliaro, M. J. Bearpark, J. J. Heyd, E. N. Brothers, K. N. Kudin, 
+ V. N. Staroverov, T. A. Keith, R. Kobayashi, J. Normand, 
+ K. Raghavachari, A. P. Rendell, J. C. Burant, S. S. Iyengar, 
+ J. Tomasi, M. Cossi, J. M. Millam, M. Klene, C. Adamo, R. Cammi, 
+ J. W. Ochterski, R. L. Martin, K. Morokuma, O. Farkas, 
+ J. B. Foresman, and D. J. Fox, Gaussian, Inc., Wallingford CT, 2019.
+ 
+ ******************************************
+ Gaussian 16:  ES64L-G16RevC.01  3-Jul-2019
+                 9-Jul-2026 
+ ******************************************
+ %nprocshared=2
+ Will use up to    2 processors via shared memory.
+ %mem=2GB
+ %chk=hcn.chk
+ ----------------------------------------------------------------------
+ #p External="/lustre/isaac24/scratch/usuresh3/xtb-gaussian/xtb-g" Opt=
+ (TS, CalcFC, NoEigenTest, NoMicro)
+ ----------------------------------------------------------------------
+ 1/5=1,10=4,11=1,18=20,26=1,38=1/1,3;
+ 2/9=110,12=2,17=6,18=5,40=1/2;
+ 3/11=9,25=1,30=1,41=9900000,43=2,71=2,140=1/1;
+ 4/20=17,22=2,24=3,113=1,114=1/2;
+ 6/7=2,8=2,9=2,10=2/1;
+ 7/25=1,44=-1/16;
+ 1/5=1,10=4,11=1,18=20,26=1/3(2);
+ 2/9=110/2;
+ 99//99;
+ 2/9=110/2;
+ 3/11=9,25=1,30=1,41=9900000,43=2,71=1/1;
+ 4/16=2,20=17,22=1,24=3,113=1,114=1/2;
+ 7/44=-1/16;
+ 1/5=1,11=1,18=20,26=1/3(-4);
+ 2/9=110/2;
+ 6/7=2,8=2,9=2,10=2/1;
+ 99/9=10/99;
+ Leave Link    1 at Thu Jul  9 07:41:42 2026, MaxMem=   268435456 cpu:               0.0 elap:               0.0
+ (Enter /sw/isaac/applications/gaussian/16C01/rhel8_cascadelake_binary_x86_64_avx2/g16/l101.exe)
+ -------------------------------------
+ Title: hcn ts search via xTB-Gaussian
+ -------------------------------------
+ Symbolic Z-matrix:
+ Charge =  0 Multiplicity = 1
+ C                     0.07754   0.62882   0. 
+ H                    -1.008     0.23097   0. 
+ N                     0.07754  -0.57198   0. 
+ 
+ ITRead=  0  0  0
+ MicOpt= -1 -1 -1
+ NAtoms=      3 NQM=        3 NQMF=       0 NMMI=      0 NMMIF=      0
+                NMic=       0 NMicF=      0.
+                    Isotopes and Nuclear Properties:
+ (Nuclear quadrupole moments (NQMom) in fm**2, nuclear magnetic moments (NMagM)
+  in nuclear magnetons)
+
+  Atom         1           2           3
+ IAtWgt=          12           1          14
+ AtmWgt=  12.0000000   1.0078250  14.0030740
+ NucSpn=           0           1           2
+ AtZEff=  -0.0000000  -0.0000000  -0.0000000
+ NQMom=    0.0000000   0.0000000   2.0440000
+ NMagM=    0.0000000   2.7928460   0.4037610
+ AtZNuc=   6.0000000   1.0000000   7.0000000
+ Leave Link  101 at Thu Jul  9 07:41:42 2026, MaxMem=   268435456 cpu:               0.1 elap:               0.0
+ (Enter /sw/isaac/applications/gaussian/16C01/rhel8_cascadelake_binary_x86_64_avx2/g16/l103.exe)
+
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Berny optimization.
+ Initialization pass.
+                           ----------------------------
+                           !    Initial Parameters    !
+                           ! (Angstroms and Degrees)  !
+ --------------------------                            --------------------------
+ ! Name  Definition              Value          Derivative Info.                !
+ --------------------------------------------------------------------------------
+ ! R1    R(1,2)                  1.1561         calculate D2E/DX2 analytically  !
+ ! R2    R(1,3)                  1.2008         calculate D2E/DX2 analytically  !
+ ! A1    A(2,1,3)               69.8722         calculate D2E/DX2 analytically  !
+ --------------------------------------------------------------------------------
+ Trust Radius=3.00D-01 FncErr=1.00D-07 GrdErr=1.00D-07 EigMax=2.50D+02 EigMin=1.00D-04
+ Number of steps in this run=     20 maximum allowed number of steps=    100.
+ Search for a saddle point of order  1.
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+
+ Leave Link  103 at Thu Jul  9 07:41:42 2026, MaxMem=   268435456 cpu:               0.0 elap:               0.0
+ (Enter /sw/isaac/applications/gaussian/16C01/rhel8_cascadelake_binary_x86_64_avx2/g16/l202.exe)
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.077538    0.628819    0.000000
+      2          1           0       -1.007996    0.230972    0.000000
+      3          7           0        0.077538   -0.571984    0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3
+     1  C    0.000000
+     2  H    1.156143   0.000000
+     3  N    1.200803   1.350230   0.000000
+ Stoichiometry    CHN
+ Framework group  CS[SG(CHN)]
+ Deg. of freedom     3
+ Full point group                 CS      NOp   2
+ Largest Abelian subgroup         CS      NOp   2
+ Largest concise Abelian subgroup C1      NOp   1
+                         Standard orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.077538    0.628819    0.000000
+      2          1           0       -1.007996    0.230972    0.000000
+      3          7           0        0.077538   -0.571984    0.000000
+ ---------------------------------------------------------------------
+ Rotational constants (GHZ):         445.2823210          53.8415834          48.0335745
+ Leave Link  202 at Thu Jul  9 07:41:42 2026, MaxMem=   268435456 cpu:               0.0 elap:               0.0
+ (Enter /sw/isaac/applications/gaussian/16C01/rhel8_cascadelake_binary_x86_64_avx2/g16/l301.exe)
+ Standard basis: STO-3G (5D, 7F)
+ Ernie: Thresh=  0.10000D-02 Tol=  0.10000D-05 Strict=F.
+ There are     9 symmetry adapted cartesian basis functions of A'  symmetry.
+ There are     2 symmetry adapted cartesian basis functions of A"  symmetry.
+ There are     9 symmetry adapted basis functions of A'  symmetry.
+ There are     2 symmetry adapted basis functions of A"  symmetry.
+    11 basis functions,    33 primitive gaussians,    11 cartesian basis functions
+     7 alpha electrons        7 beta electrons
+       nuclear repulsion energy        23.9984854679 Hartrees.
+ IExCor=    0 DFT=F Ex=HF Corr=None ExCW=0 ScaHFX=  1.000000
+ ScaDFX=  1.000000  1.000000  1.000000  1.000000 ScalE2=  1.000000  1.000000
+ IRadAn=      5 IRanWt=     -1 IRanGd=            0 ICorTp=0 IEmpDi=  4
+ NAtoms=    3 NActive=    3 NUniq=    3 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 1 integral format.
+ Two-electron integral symmetry is turned on.
+ Leave Link  301 at Thu Jul  9 07:41:42 2026, MaxMem=   268435456 cpu:               0.0 elap:               0.0
+ (Enter /sw/isaac/applications/gaussian/16C01/rhel8_cascadelake_binary_x86_64_avx2/g16/l402.exe)
+ External calculation of energy, first and second derivatives.
+ Running external command "/lustre/isaac24/scratch/usuresh3/xtb-gaussian/xtb-g R"
+         input file       "/lustre/isaac24/scratch/usuresh3/paper/berny_results/hcn/Gau-1283074.EIn"
+         output file      "/lustre/isaac24/scratch/usuresh3/paper/berny_results/hcn/Gau-1283074.EOu"
+         message file     "/lustre/isaac24/scratch/usuresh3/paper/berny_results/hcn/Gau-1283074.EMs"
+         fchk file        "/lustre/isaac24/scratch/usuresh3/paper/berny_results/hcn/Gau-1283074.EFC"
+         mat. el file     "/lustre/isaac24/scratch/usuresh3/paper/berny_results/hcn/Gau-1283074.EUF"
+
+ ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
+ Output from external command:
+ "/lustre/isaac24/scratch/usuresh3/xtb-gaussian/xtb-g R /lustre/isaac24/scratch/usuresh3/paper/berny_results/hcn/Gau-1283074.EIn /lustre/isaac24/scratch/usuresh3/paper/berny_results/hcn/Gau-1283074.EOu /lustre/isaac24/scratch/usuresh3/paper/berny_results/hcn/Gau-1283074.EMs /lustre/isaac24/scratch/usuresh3/paper/berny_results/hcn/Gau-1283074.EFC /lustre/isaac24/scratch/usuresh3/paper/berny_results/hcn/Gau-1283074.EUF"
+ Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+ normal termination of xtb
+  
+ ------- xtb command was ---------
+ ?> xtb ./Gau-1283074.EIn  --hess --charge 0  >/dev/null 2>Gau-1283074.EMs
+ ---------------------------------
+              Control returned to Gaussian.
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
+
+ Recovered energy= -5.38758301027     dipole=     -0.810900366073      0.146540122376      0.000000000000
+ Energy=    -5.38758301     NIter=   0.
+ Dipole moment=      -0.810900       0.146540       0.000000
+ Leave Link  402 at Thu Jul  9 07:41:42 2026, MaxMem=   268435456 cpu:               0.2 elap:               0.1
+ (Enter /sw/isaac/applications/gaussian/16C01/rhel8_cascadelake_binary_x86_64_avx2/g16/l601.exe)
+ Leave Link  601 at Thu Jul  9 07:41:42 2026, MaxMem=   268435456 cpu:               0.0 elap:               0.0
+ (Enter /sw/isaac/applications/gaussian/16C01/rhel8_cascadelake_binary_x86_64_avx2/g16/l716.exe)
+ Dipole        =-8.10900366D-01 1.46540122D-01 0.00000000D+00
+ ***** Axes restored to original set *****
+ -------------------------------------------------------------------
+ Center     Atomic                   Forces (Hartrees/Bohr)
+ Number     Number              X              Y              Z
+ -------------------------------------------------------------------
+      1        6           0.004453506   -0.002853434   -0.000000000
+      2        1           0.001035137    0.005741311   -0.000000000
+      3        7          -0.005488643   -0.002887877   -0.000000000
+ -------------------------------------------------------------------
+ Cartesian Forces:  Max     0.005741311 RMS     0.003341241
+ Force constants in Cartesian coordinates: 
+                1             2             3             4             5 
+      1  0.748869D-01
+      2 -0.425947D-01  0.926562D+00
+      3  0.000000D+00 -0.146850D-05  0.000000D+00
+      4 -0.166148D+00 -0.451297D-01  0.000000D+00  0.205242D+00
+      5  0.400599D-01  0.805055D-01  0.000000D+00  0.319753D-01 -0.679654D-01
+      6  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      7  0.912616D-01  0.877245D-01  0.000000D+00 -0.390931D-01 -0.720352D-01
+      8  0.253485D-02 -0.100707D+01  0.174880D-05  0.131544D-01 -0.125401D-01
+      9  0.000000D+00  0.145140D-05  0.000000D+00  0.000000D+00  0.000000D+00
+                6             7             8             9 
+      6  0.000000D+00
+      7  0.000000D+00 -0.521685D-01
+      8  0.000000D+00 -0.156892D-01  0.101961D+01
+      9  0.000000D+00  0.000000D+00 -0.172480D-05  0.000000D+00
+ FormGI is forming the generalized inverse of G from B-inverse, IUseBI=4.
+ Force constants in internal coordinates: 
+                1             2             3 
+      1  0.193577D+00
+      2  0.801337D-02  0.101963D+01
+      3  0.139608D+00  0.356295D-01 -0.268590D+00
+ Leave Link  716 at Thu Jul  9 07:41:42 2026, MaxMem=   268435456 cpu:               0.0 elap:               0.0
+ (Enter /sw/isaac/applications/gaussian/16C01/rhel8_cascadelake_binary_x86_64_avx2/g16/l103.exe)
+
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Berny optimization.
+ Red2BG is reusing G-inverse.
+ Internal  Forces:  Max     0.000191252 RMS     0.000125004
+ Search for a saddle point.
+ Step number   1 out of a maximum of   20
+ All quantities printed in internal units (Hartrees-Bohrs-Radians)
+ Swapping is turned off.
+ Second derivative matrix not updated -- analytic derivatives used.
+ The second derivative matrix:
+                          R1        R2        A1
+           R1           0.19358
+           R2           0.00801   1.01963
+           A1           0.13961   0.03563  -0.26859
+ ITU=  0
+     Eigenvalues ---   -0.30827   0.23210   1.02079
+ Eigenvectors required to have negative eigenvalues:
+                          A1        R1        R2
+   1                   -0.96323   0.26757   0.02423
+ RFO step:  Lambda0=1.406427659D-07 Lambda= 0.00000000D+00.
+ Linear search not attempted -- option 19 set.
+ Iteration  1 RMS(Cart)=  0.00054711 RMS(Int)=  0.00000011
+ Iteration  2 RMS(Cart)=  0.00000009 RMS(Int)=  0.00000000
+ ITry= 1 IFail=0 DXMaxC= 5.80D-04 DCOld= 1.00D+10 DXMaxT= 3.00D-01 DXLimC= 3.00D+00 Rises=F
+ ClnCor:  largest displacement from symmetrization is 1.13D-15 for atom     2.
+ Variable       Old X    -DE/DX   Delta X   Delta X   Delta X     New X
+                                 (Linear)    (Quad)   (Total)
+    R1        2.18479   0.00009   0.00000  -0.00002  -0.00002   2.18478
+    R2        2.26919  -0.00004   0.00000  -0.00006  -0.00006   2.26913
+    A1        1.21950  -0.00019   0.00000   0.00070   0.00070   1.22019
+         Item               Value     Threshold  Converged?
+ Maximum Force            0.000191     0.000450     YES
+ RMS     Force            0.000125     0.000300     YES
+ Maximum Displacement     0.000580     0.001800     YES
+ RMS     Displacement     0.000547     0.001200     YES
+ Predicted change in Energy= 6.597383D-08
+ Optimization completed.
+    -- Stationary point found.
+                           ----------------------------
+                           !   Optimized Parameters   !
+                           ! (Angstroms and Degrees)  !
+ --------------------------                            --------------------------
+ ! Name  Definition              Value          Derivative Info.                !
+ --------------------------------------------------------------------------------
+ ! R1    R(1,2)                  1.1561         -DE/DX =    0.0001              !
+ ! R2    R(1,3)                  1.2008         -DE/DX =    0.0                 !
+ ! A1    A(2,1,3)               69.8722         -DE/DX =   -0.0002              !
+ --------------------------------------------------------------------------------
+ Largest change from initial coordinates is atom    2       0.000 Angstoms.
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+
+ Leave Link  103 at Thu Jul  9 07:41:42 2026, MaxMem=   268435456 cpu:               0.0 elap:               0.0
+ (Enter /sw/isaac/applications/gaussian/16C01/rhel8_cascadelake_binary_x86_64_avx2/g16/l202.exe)
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.077538    0.628819    0.000000
+      2          1           0       -1.007996    0.230972    0.000000
+      3          7           0        0.077538   -0.571984    0.000000
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3
+     1  C    0.000000
+     2  H    1.156143   0.000000
+     3  N    1.200803   1.350230   0.000000
+ Stoichiometry    CHN
+ Framework group  CS[SG(CHN)]
+ Deg. of freedom     3
+ Full point group                 CS      NOp   2
+ RotChk:  IX=0 Diff= 3.56D-16
+ Largest Abelian subgroup         CS      NOp   2
+ Largest concise Abelian subgroup C1      NOp   1
+                         Standard orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.077538    0.628819    0.000000
+      2          1           0       -1.007996    0.230972    0.000000
+      3          7           0        0.077538   -0.571984    0.000000
+ ---------------------------------------------------------------------
+ Rotational constants (GHZ):         445.2823210          53.8415834          48.0335745
+ Leave Link  202 at Thu Jul  9 07:41:42 2026, MaxMem=   268435456 cpu:               0.0 elap:               0.0
+ (Enter /sw/isaac/applications/gaussian/16C01/rhel8_cascadelake_binary_x86_64_avx2/g16/l9999.exe)
+ Unable to Open any file for archive entry.
+ 1\1\GINC-GEN1443\FTS\External='/lustre/isaac24/scratch/usuresh3/xtb-ga
+ ussian/xtb-g'\ZDO\C1H1N1\USURESH3\09-Jul-2026\0\\#p External="/lustre/
+ isaac24/scratch/usuresh3/xtb-gaussian/xtb-g" Opt=(TS, CalcFC, NoEigenT
+ est, NoMicro)\\Title: hcn ts search via xTB-Gaussian\\0,1\C,0.077538,0
+ .628819,0.\H,-1.007996,0.230972,0.\N,0.077538,-0.571984,0.\\Version=ES
+ 64L-G16RevC.01\HF=-5.387583\RMSD=0.000e+00\RMSF=3.341e-03\Dipole=-0.81
+ 09004,0.1465401,0.\PG=CS [SG(C1H1N1)]\\@
+ The archive entry for this job was punched.
+
+
+     "IF I COULD JUST GET IT ON PAPER"
+ LIFE AND INK, THEY RUN OUT AT THE SAME TIME,
+ OR SO SAID MY OLD FRIEND THE SQUID.
+     -- JIMMY BUFFETT, 1981
+ Job cpu time:       0 days  0 hours  0 minutes  0.5 seconds.
+ Elapsed time:       0 days  0 hours  0 minutes  0.3 seconds.
+ File lengths (MBytes):  RWF=      6 Int=      0 D2E=      0 Chk=      1 Scr=      1
+ Normal termination of Gaussian 16 at Thu Jul  9 07:41:42 2026.
