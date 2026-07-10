@@ -1,3 +1,3 @@
-To run the ACTS agent 
+To run the SACTS agent 
 
 Go to acts/rl and submit the batch script with "python run.py"
